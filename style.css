@@ -1,10 +1,14 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
 /* 
-.option-one-screen, 
-.option-two-screen, 
-.option-one-end, 
-.option-two-end  {
+.option-one-screen-c1,
+.option-one-screen-c2,
+.option-two-screen-c1,
+.option-two-screen-c2,
+.option-one-end-c1,
+.option-one-end-c2,
+.option-two-end-c2,
+.option-two-end-c1  {
    display:none;
 }
 */
@@ -46,6 +50,11 @@ body {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+  
+}
+.Terminid {
+  width: 170px;
+ height: 100px; /*Change later */
 }
 
 /* Style the story opening message */
@@ -79,8 +88,14 @@ button:hover {
 /* Style the screens for option one and option two */
 .option-one-screen,
 .option-two-screen,
-.option-one-end,
-.option-two-end {
+.option-one-screen-c1,
+.option-one-screen-c2,
+.option-two-screen-c1,
+.option-two-screen-c2,
+.option-one-end-c1,
+.option-one-end-c2,
+.option-two-end-c2,
+.option-two-end-c1{
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
@@ -92,8 +107,14 @@ button:hover {
 /* Style the images in the screens */
 .option-one-screen img,
 .option-two-screen img,
-.option-one-end img,
-.option-two-end img {
+.option-one-screen-c1 img,
+.option-one-screen-c2 img,
+.option-two-screen-c1 img,
+.option-two-screen-c2 img,
+.option-one-end-c1 img,
+.option-one-end-c2 img,
+.option-two-end-c2 img,
+.option-two-end-c1 img{
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -102,8 +123,14 @@ button:hover {
 /* Style the text in the screens */
 .option-one-screen h1,
 .option-two-screen h1,
-.option-one-end h1,
-.option-two-end h1 {
+.option-one-screen-c1 h1,
+.option-one-screen-c2 h1,
+.option-two-screen-c1 h1,
+.option-two-screen-c2 h1,
+.option-one-end-c1 h1,
+.option-one-end-c2 h1,
+.option-two-end-c2 h1,
+.option-two-end-c1 h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }
