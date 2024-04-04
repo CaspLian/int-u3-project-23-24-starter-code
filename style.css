@@ -1,6 +1,8 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
 /* 
+.option-one-screen,
+.option-two-screen,
 .option-one-screen-c1,
 .option-one-screen-c2,
 .option-two-screen-c1,
@@ -29,12 +31,7 @@ body {
     padding: 20px;
 }
 
-/* Style the title of your story */
-.title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
+
 
 /* Style the story opening container */
 .story-opening {
@@ -52,7 +49,8 @@ body {
     margin-bottom: 10px;
   
 }
-.Terminid {
+.Terminid,
+.automaton {
   width: 170px;
  height: 100px; /*Change later */
 }
