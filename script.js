@@ -29,6 +29,8 @@ sub.addEventListener("click", function(){
   pname.innerHTML = name.value;
   sub.style.display = "none"
   name.style.display = "none"
+  button1.style.display = "block"
+  button2.style.display = "block"
 });
 
 
@@ -101,7 +103,59 @@ optionTwoThirdScreen2.addEventListener('click',function(){
 })
 
 reset1_1.addEventListener('click',function(){
-  
+  beginScreen.style.display = "block"
+  optionOneScreen.style.display = "none"
+  optionOneEnd1_1.style.display = "none"
+  optionOneEnd1_2.style.display = "none"
+  optionOneThirdScreen1.style.display = "none"
+  optionOneThirdScreen2.style.display = "none"
+  button1.style.display = "none"
+  button2.style.display = "none"
+  pname.style.display = "none"
+  name.style.display = "block"
+  sub.style.display = "block"
+})
+
+reset1_2.addEventListener('click',function(){
+  beginScreen.style.display = "block"
+  optionOneScreen.style.display = "none"
+  optionOneEnd1_1.style.display = "none"
+  optionOneEnd1_2.style.display = "none"
+  optionOneThirdScreen1.style.display = "none"
+  optionOneThirdScreen2.style.display = "none"
+  button1.style.display = "none"
+  button2.style.display = "none"
+  pname.style.display = "none"
+  name.style.display = "block"
+  sub.style.display = "block"
+})
+
+reset2_1.addEventListener('click',function(){
+  beginScreen.style.display = "block"
+  optionTwoScreen.style.display = "none"
+  optionTwoEnd2_1.style.display = "none"
+  optionTwoEnd2_2.style.display = "none"
+  optionTwoThirdScreen1.style.display = "none"
+  optionTwoThirdScreen2.style.display = "none"
+  button1.style.display = "none"
+  button2.style.display = "none"
+  pname.style.display = "none"
+  name.style.display = "block"
+  sub.style.display = "block"
+})
+
+reset2_2.addEventListener('click',function(){
+  beginScreen.style.display = "block"
+  optionTwoScreen.style.display = "none"
+  optionTwoEnd2_1.style.display = "none"
+  optionTwoEnd2_2.style.display = "none"
+  optionTwoThirdScreen1.style.display = "none"
+  optionTwoThirdScreen2.style.display = "none"
+  button1.style.display = "none"
+  button2.style.display = "none"
+  pname.style.display = "none"
+  name.style.display = "block"
+  sub.style.display = "block"
 })
 
 // When you're ready to make event handlers, uncomment the code below. 

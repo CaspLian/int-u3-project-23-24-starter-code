@@ -15,10 +15,33 @@
 .option-one-button2,
 .option-two-button1,
 .option-two-button2,
-.pname{
+.pname,
+.option-one,
+.option-two{
   display:none;
 }
 
+.input{
+  background-color: #d2cbcb;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  margin:0 auto;
+}
+.pname{
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333;
+  margin:0 auto;
+}
+
+.submit{
+  margin:0 auto;
+}
 
 
 
