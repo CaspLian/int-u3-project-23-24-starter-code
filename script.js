@@ -157,20 +157,3 @@ reset2_2.addEventListener('click',function(){
   name.style.display = "block"
   sub.style.display = "block"
 })
-
-// When you're ready to make event handlers, uncomment the code below. 
-//  - Then fill in the blanks with the correct variables.
-
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
-
-
-// INSERT_VARIABLE.addEventListener('click', function(){
-
-// });
